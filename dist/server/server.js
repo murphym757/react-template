@@ -11,7 +11,7 @@ var express = require('express'),
     methodOverride = require('method-override'),
     webpack = require('webpack'),
     webpackMiddleware = require('webpack-dev-middleware'),
-    webpackConfig = require('../../webpack.config'),
+    webpackConfig = require('../../webpack.config.js'),
     port = process.env.PORT || 3000;
 
 app.use(webpackMiddleware(webpack(webpackConfig), { publicPath: '/' }));
