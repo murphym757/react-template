@@ -50,4 +50,6 @@ app.get('*', function (req, res) {
     res.sendFile(path.resolve(__dirname + './../../src/index.html'));
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => {
+    console.log('Server started on port ' + port)
+});

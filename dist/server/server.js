@@ -49,5 +49,5 @@ app.get('*', function (req, res) {
 });
 
 app.listen(port, function () {
-    return console.log('Listening on port ' + port);
+    console.log('Server started on port ' + port);
 });
