@@ -49,7 +49,7 @@ npm run build
 ```
 npm start
 ```
-Don't forget to press ctrl+c to close. From there, you can make whatever changing you'd like. Howeever, you must repeat the transpile and build stages again.
+Don't forget to press ctrl+c to close. From there, you can make whatever changes you'd like. Howeever, you must repeat the transpile and build stages again.
 
 
 ### Styling
