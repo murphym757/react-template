@@ -11,9 +11,13 @@ Clone the repository:
 git clone https://github.com/murphym757/react-template
 ```
 
-Using a terminal, navigate to the react-template folder.
+Rename the react-template folder to whatever you'd like.
 
-Simply rename the react-template folder to whatever you'd like and proceed from there.
+Using a terminal, navigate to the that folder and run this code to remove the current repository:
+
+```
+rm -rf .git
+```
 
 ### Installing
 
@@ -49,7 +53,7 @@ Everything in the assets folder can be changed to your liking.
 
 ### Deployment
 
-Create a repository for your app, yourappname, on GitHub. 
+Publish your newly created repository to GitHub. 
 
 This project was created with deploying to Heroku in mind.
 
