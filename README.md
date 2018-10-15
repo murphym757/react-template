@@ -19,6 +19,12 @@ Using a terminal, navigate to the that folder and run this code to remove the cu
 rm -rf .git
 ```
 
+Then create your own repository via the git-cli:
+
+```
+git init
+```
+
 ### Installing
 
 Install all of the project's node modules via:
