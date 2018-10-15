@@ -78,6 +78,8 @@ Please place this line of code in the heroku-cli to ensure that the devDependenc
 heroku config:set NPM_CONFIG_PRODUCTION=false --app yourappname
 ```
 
+On your app's Heroku deploy page, manually deploy the branch. From there, the app should be fully functional now.
+
 ## Built With
 
 * [React](https://reactjs.org/tutorial/tutorial.html) - Front-end framework
