@@ -88,7 +88,7 @@ heroku config:set NPM_CONFIG_PRODUCTION=false --app yourappname
 
 ## Authors
 
-* **Maurice** - *Initial work* - [murphym757](https://github.com/murphym757)
+* **Maurice Murphy** - *Initial work* - [murphym757](https://github.com/murphym757)
 
 See also the list of [contributors](https://github.com/murphym757/react-template/graphs/contributors) who participated in this project.
 
