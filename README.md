@@ -95,4 +95,4 @@ See also the list of [contributors](https://github.com/murphym757/react-template
 ## Acknowledgments
 
 * [Steps for setting up Webpack 4 via React](https://medium.com/dailyjs/building-a-react-component-with-webpack-publish-to-npm-deploy-to-github-guide-6927f60b3220)
-* [https://medium.com/@adityaa803/how-to-deploy-webpack-node-based-app-to-heroku-f55437602a3e](https://github.com/murphym757)
+* [How to make Webpack and Heroku work together](https://medium.com/@adityaa803/how-to-deploy-webpack-node-based-app-to-heroku-f55437602a3e)
