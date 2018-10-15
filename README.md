@@ -5,28 +5,19 @@ This project is meant to serve as a ready-to-go React app. With the purpose of r
 
 ### Prerequisites
 
-Create a new directory and use it:
+Clone the repository:
 
 ```
-mkdir yourappname
-cd yourappname
+git clone https://github.com/murphym757/react-template
 ```
 
-Create a package.json file:
+Using a terminal, navigate to the react-template folder.
 
-```
-npm init
-```
-
-To skip the questions:
-
-```
-npm init -y
-```
+Simply rename the react-template folder to whatever you'd like and proceed from there.
 
 ### Installing
 
-Simply install all of the project's node modules via:
+Install all of the project's node modules via:
 
 ```
 npm install
