@@ -40,7 +40,7 @@ npm run build
 ```
 npm start
 ```
-Don't forget to press ctrl+c to close. From there, you can make whatever changes you'd like. Howeever, you must repeat the transpile and build stages again.
+The server is set to 3000, so navigate in your web browser to,http://localhost:3000/. Don't forget to press ctrl+c to close. From there, you can make whatever changes you'd like. Howeever, you must repeat the transpile and build stages again.
 
 
 ### Styling
