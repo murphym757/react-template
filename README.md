@@ -32,17 +32,16 @@ Install all of the project's node modules via:
 ```
 npm install
 ```
+compile the component source files
+
+```
+npm run build
+```
 
 Transpile the component source files
 
 ```
 npm run transpile
-```
-
-compile the component source files
-
-```
-npm run build
 ```
 
 ## Testing the code
