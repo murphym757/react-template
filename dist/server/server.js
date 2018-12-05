@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var express = require('express'),
     app = express(),
@@ -14,11 +14,13 @@ var express = require('express'),
     webpackConfig = require('../../webpack.config.js'),
     port = process.env.PORT || 3000;
 
-app.use(webpackMiddleware(webpack(webpackConfig), { publicPath: '/' }));
-
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(webpackMiddleware(webpack(webpackConfig), {
+  publicPath: '/'
+}));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.use(bodyParser.json());
-
 /* Mongoose 
 // Mongoose instance connection url connection
 mongoose.Promise = global.Promise;
@@ -45,9 +47,8 @@ app.use(session({
 
 app.use(express.static(path.join(__dirname + './../../')));
 app.get('*', function (req, res) {
-    res.sendFile(path.resolve(__dirname + './../../src/index.html'));
+  res.sendFile(path.resolve(__dirname + './../../src/index.html'));
 });
-
 app.listen(port, function () {
-    console.log('Server started on port ' + port);
+  console.log('Server started on port ' + port);
 });
