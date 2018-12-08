@@ -10,8 +10,7 @@ Clone the repository:
 ```
 git clone https://github.com/murphym757/react-template
 ```
-
-Rename the react-template folder to whatever you'd like.
+### (Important) Rename the react-template folder to whatever you'd like. 
 
 Using a terminal, navigate to the that folder and run this code to remove the current repository:
 
