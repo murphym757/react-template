@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
@@ -24,7 +25,7 @@ module.exports = {
                     options: {
                         cacheDirectory: true
                     }
-            },
+                },
                 exclude: /node_modules/
             },
             {
@@ -52,7 +53,15 @@ module.exports = {
             }
         ]
     },
-    plugins: [htmlWebpackPlugin],
+    node: {
+        fs: "empty"
+    },
+    plugins: [
+        htmlWebpackPlugin,
+        new Dotenv({
+            path: path.resolve(__dirname, '.env')
+        })
+    ],
     resolve: {
         extensions: [".js", ".jsx"]
     },

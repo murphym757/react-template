@@ -4,8 +4,12 @@
         [
             "@babel/plugin-proposal-class-properties",
             {
-              "loose": true
+                "loose": true
             }
-          ]
-    ]
+        ],
+        [
+            "babel-plugin-styled-components"
+        ]
+    ],
+    "compact": false
 }

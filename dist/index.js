@@ -12,10 +12,7 @@ var _bootstrapGridMin = _interopRequireDefault(require("../node_modules/bootstra
 
 var _bootstrapMin2 = _interopRequireDefault(require("../node_modules/bootstrap/dist/js/bootstrap.min.js"));
 
-require("./app/assets/styles/styles.scss");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _fonts = _interopRequireDefault(require("./app/assets/styles/fonts.scss"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _reactDom.render)(_react.default.createElement(_main.default, null), document.getElementById("app"));
+// Bootstrap
+(0, _reactDom.render)(_react["default"].createElement(_main["default"], null), document.getElementById("app"));
